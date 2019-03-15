@@ -12,4 +12,4 @@ MACHINE_FEATURES_append = " vc4graphics"
 
 MULTI_PROVIDER_WHITELIST += "virtual/libgl virtual/egl virtual/libgles1 virtual/libgles2"
 
-CUSTOM_IMAGE_FSTYPE ?= "wic.gz"
+CUSTOM_IMAGE_FSTYPE ?= "wic.gz rpi-sdimg"
